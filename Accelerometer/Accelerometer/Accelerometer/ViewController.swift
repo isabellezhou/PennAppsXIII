@@ -55,12 +55,13 @@ class ViewController: UIViewController {
         motionManager.gyroUpdateInterval = 0.2
         
         // Start Recording Data
-        motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.currentQueue(), withHandler: { (accelerometerData: CMAccelerometerData!, error: NSError!) -> Void in
+        
+        motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.currentQueue()!) { (accelerometerData: CMAccelerometerData?, NSError) -> Void in
             self.outputAccelerationData(accelerometerData.acceleration)
-            if (error != nil) {
-                println("\(error)")
+            if(NSError != nil) {
+                print("\(NSError)")
             }
-        })
+            }
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
