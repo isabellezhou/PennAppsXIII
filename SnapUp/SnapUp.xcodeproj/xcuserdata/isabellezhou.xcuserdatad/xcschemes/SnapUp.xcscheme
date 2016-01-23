@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5EAA01D1C53C3830070AAAD"
+               BlueprintIdentifier = "65965B9F1C53523E0011FBFC"
                BuildableName = "SnapUp.app"
                BlueprintName = "SnapUp"
                ReferencedContainer = "container:SnapUp.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5EAA0341C53C3840070AAAD"
+               BlueprintIdentifier = "65965BB61C53523E0011FBFC"
                BuildableName = "SnapUpTests.xctest"
                BlueprintName = "SnapUpTests"
                ReferencedContainer = "container:SnapUp.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5EAA03F1C53C3840070AAAD"
+               BlueprintIdentifier = "65965BC11C53523E0011FBFC"
                BuildableName = "SnapUpUITests.xctest"
                BlueprintName = "SnapUpUITests"
                ReferencedContainer = "container:SnapUp.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B5EAA01D1C53C3830070AAAD"
+            BlueprintIdentifier = "65965B9F1C53523E0011FBFC"
             BuildableName = "SnapUp.app"
             BlueprintName = "SnapUp"
             ReferencedContainer = "container:SnapUp.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B5EAA01D1C53C3830070AAAD"
+            BlueprintIdentifier = "65965B9F1C53523E0011FBFC"
             BuildableName = "SnapUp.app"
             BlueprintName = "SnapUp"
             ReferencedContainer = "container:SnapUp.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B5EAA01D1C53C3830070AAAD"
+            BlueprintIdentifier = "65965B9F1C53523E0011FBFC"
             BuildableName = "SnapUp.app"
             BlueprintName = "SnapUp"
             ReferencedContainer = "container:SnapUp.xcodeproj">
