@@ -15,6 +15,7 @@
 		65965BB11C53523E0011FBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65965BAF1C53523E0011FBFC /* LaunchScreen.storyboard */; };
 		65965BBC1C53523E0011FBFC /* SnapUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65965BBB1C53523E0011FBFC /* SnapUpTests.swift */; };
 		65965BC71C53523E0011FBFC /* SnapUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65965BC61C53523E0011FBFC /* SnapUpUITests.swift */; };
+		65965BD61C5360C80011FBFC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65965BD51C5360C80011FBFC /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		65965BC21C53523E0011FBFC /* SnapUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65965BC61C53523E0011FBFC /* SnapUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapUpUITests.swift; sourceTree = "<group>"; };
 		65965BC81C53523E0011FBFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65965BD51C5360C80011FBFC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65965BD61C5360C80011FBFC /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				65965BBA1C53523E0011FBFC /* SnapUpTests */,
 				65965BC51C53523E0011FBFC /* SnapUpUITests */,
 				65965BA11C53523E0011FBFC /* Products */,
+				65965BD51C5360C80011FBFC /* CoreLocation.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnapUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snapup.SnapUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnapUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snapup.SnapUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
