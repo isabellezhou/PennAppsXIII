@@ -1,9 +1,12 @@
 $(document).ready(function() {
-    $(".landing").show();
-    $(".map").show();
-    $(".alarm").hide();
+  $("#arrow").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".arrow").offset().top-100},
+          'slow');
+});
 });
 
-$( ".arrow" ).click(function() {
-  $( ".map" ).scroll();
+$(document).ready(function(){ 
+    setTimeout(function(){ 
+        $("div.landing").fadeIn();}, 2000);
 });

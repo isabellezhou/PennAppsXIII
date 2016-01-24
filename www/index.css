@@ -6,22 +6,33 @@
 h1 {
 	font-family: 'Cabin', sans-serif;
 	font-size: 150px;
-	color: rgb(255,255,255);
+	color: rgb(250,247,162);
 	padding-bottom: 0px;
 }
 
 h2 {
-	color: rgb(250,247,162);
+	color: rgb(255,255,255);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 45px;
 	padding-top: 0px;
 }
 
-.map {
-	color: rgba (255,255,255,0.75);
-	background-size:100%;
+h3 {
+	font-family: 'Cabin', sans-serif;
+	color: rgb(0,0,0);
+	font-size: 20px;
 }
 
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(0,0,0);
+	font-size: 15px;
+}
+
+.map {
+	color: rgba (255,255,255,0.5);
+	background-size:100%;
+}
 
 html, body {
 	height: 100%;
@@ -32,6 +43,8 @@ html, body {
 height: 50%;
 width: 50%;
 margin: 0 auto;
+color: rgba(255,255,255,0.5);
+
 }
 .controls {
 margin-top: 10px;

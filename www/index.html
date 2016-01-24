@@ -1,48 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Place Autocomplete</title>
+    <title>SnapUp!</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <div class = "landing">
-      <br><br><center><h1>SnapUp!</h1>
-      <h2>Travel without fear.</h2></center>
+      <br><br><center><h1>SnapUp!<h2>Travel without fear.</h2></h1><br><br><br><br>
+      </center>
 
       <div class = "arrow">
         <center>
-          <input id="arrow" type="image" src="http://www.clker.com/cliparts/i/N/b/D/G/o/blue-downward-arrow-hi.png" alt="calculatorbutton" width="75" height="50">
+          <input id="arrow" type="image" src="http://i63.tinypic.com/1109k7r.png" alt="next" width="75" height="50">
+          <br><br><br><br><br>
         </center>
       </div>
 
-
     </div>
-
-
-
+    <br><center><h3>Ever missed your bus or train stop because you fell asleep?</h3>
+    <p>We're here to help! Simply input your destination below and we'll wake you up when you're almost there! </p></center><br>
     <input id="pac-input" class="controls" type="text"
         placeholder="Enter a location">
-    <!-- <div id="type-selector" class="controls">
-      <input type="radio" name="type" id="changetype-all" checked="checked">
-      <label for="changetype-all">All</label>
 
-      <input type="radio" name="type" id="changetype-establishment">
-      <label for="changetype-establishment">Establishments</label>
-
-      <input type="radio" name="type" id="changetype-address">
-      <label for="changetype-address">Addresses</label>
-
-      <input type="radio" name="type" id="changetype-geocode">
-      <label for="changetype-geocode">Geocodes</label>
-    </div> -->
-    <div id="map"></div>
+    <div id="map"></div> <br>
 
     <script>
-// This example requires the Places library. Include the libraries=places
-// parameter when you first load the API. For example:
-// <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
