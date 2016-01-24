@@ -1,3 +1,4 @@
+
 // This example displays an address form, using the autocomplete feature
 // of the Google Places API to help users fill in the information.
 
@@ -85,3 +86,8 @@ function geolocate() {
 
 
 }
+$(document).ready(function(){
+  $("#arrow").click(function(){
+    $("div.landing").hide();
+  });
+});
